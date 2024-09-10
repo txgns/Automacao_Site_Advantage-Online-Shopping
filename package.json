@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "cypress": "^9.5.3",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+
+  "scripts": {
+    "test:chrome": "cypress run --browser chrome --no-exit",
+    "test:panel": "cypress run --record --key 9cd4cabc-6952-40f1-9c27-fd256f216704",
+    "cypress:ci": "concurrently \"cypress run\" --kill-others \"ng serve\" --success first"
+},
+
+"cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+}
+}
