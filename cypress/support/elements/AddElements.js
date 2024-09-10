@@ -8,6 +8,8 @@ class AddElements {
 
     botaoCheckout = () => { return 'button[id="checkOutPopUp"]'}
 
+    produtoCheckout = () => { return 'div[id="userCart"] h3[class="ng-binding"]'}
+
 }
 
 export default AddElements;

@@ -30,5 +30,10 @@ class AddPage {
         cy.get(addElements.botaoCheckout()).should('be.visible').click()
     }
 
+    verificarProduto() {
+        cy.get(addElements.produtoCheckout()).should('be.visible')
+        .contains('HP ELITEPAD 1000 G2 TABLET')
+    }
+
 }
 export default AddPage;

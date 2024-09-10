@@ -17,5 +17,7 @@ Funcionalidade: Busca por produto, Adição de produtos e carrinho e Verificaç�
 
     Cenario: validação do produto no carrinho
         Dado que o produto foi adicionado ao carrinho, clico no botão CHECKOUT
+        E aguardo o carregamento da pagina
+        Então verifico se o produto está na pagina de checkout
         
        

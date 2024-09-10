@@ -14,3 +14,7 @@ Then("clico no botão ADD TO CARD", () => {
 Then("que o produto foi adicionado ao carrinho, clico no botão CHECKOUT", () => {
     addPage.clicarBotaoCheckout();
 })
+
+Then("verifico se o produto está na pagina de checkout", () => {
+    addPage.verificarProduto();
+})
