@@ -21,7 +21,7 @@ Then("preencho o campo com nome do produto", () => {
     buscaPage.preencherCampoBusca();
 })
 
-Then("que a busca ja foi realizada", () => {
+Given("que a busca ja foi realizada", () => {
     buscaPage.acessarSite();
     buscaPage.aguardar();
     buscaPage.clicarBotaoBusca();
@@ -37,7 +37,7 @@ Then("clico no botão ADD TO CARD", () => {
     addPage.clicarBotaoAdd();
 })
 
-Then("que ja realizei a busca e adicionei ao carrinho", () => {
+Given("que ja realizei a busca e adicionei ao carrinho", () => {
     buscaPage.acessarSite();
     buscaPage.aguardar();
     buscaPage.clicarBotaoBusca();
