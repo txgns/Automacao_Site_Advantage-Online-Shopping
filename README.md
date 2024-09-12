@@ -20,7 +20,7 @@ Abaixo o comando inicia a interface do Cypress para executar os testes pelo pain
 ```
 npx cypress open
 ```
-Através do painel você pode acompnhar o teste visualmente.
+Através do painel você pode acompanhar o teste visualmente.
 
 
 
