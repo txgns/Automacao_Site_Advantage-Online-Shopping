@@ -9,7 +9,7 @@
     "cypress:ci": "concurrently \"cypress run\" --kill-others \"ng serve\" --success first"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true,
-    "stepDefinitions": "cypress/e2e/step_definitions"
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e/integrations"
   }
 }

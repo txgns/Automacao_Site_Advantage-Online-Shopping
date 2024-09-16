@@ -12,7 +12,7 @@ module.exports = defineConfig({
 
     },
     supportFile: false,
-    specPattern: "cypress/e2e/step_definitions/*.feature"
+    specPattern: "cypress/e2e/integrations/*/features/*.feature"
 
   },
 });

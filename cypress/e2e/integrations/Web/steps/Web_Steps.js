@@ -1,8 +1,8 @@
 
 import { Given, Then } from 'cypress-cucumber-preprocessor/steps';
-import BuscaPage from '../../support/pageobjects/BuscaPage'
+import BuscaPage from '../pageobjects/BuscaPage'
 const buscaPage = new BuscaPage
-import AddPage from '../../support/pageobjects/AddPage'
+import AddPage from '../pageobjects/AddPage'
 const addPage = new AddPage
 
 Given("que acesso o site : Advantage Online Shopping", () => {
