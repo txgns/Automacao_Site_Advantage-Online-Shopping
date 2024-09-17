@@ -32,7 +32,7 @@ E por fim, para instalar o Node execute:
 sudo apt-get install -y nodejs
 ```
 
-Instaldo no Node.js, instale o cypress com cucumber usando seguinte comando:
+Com o Node.js instalado, será necessario instalar o cypress com cucumber usando seguinte comando:
 
 ```
 npm install --save-dev cypress cypress-cucumber-preprocessor
