@@ -14,14 +14,12 @@ Funcionalidade: Busca por produto, Adição de produtos ao carrinho e Verificaç
         E eu clico no botão de busca
         Então eu devo ser redirecionado para uma pagina coma mensagem "No results for 'Produto Fake'"
 
-
     Cenário: Adicionar um produto ao carrinho
         Dado que eu já realizei a busca do produto "Tablet"
         Quando eu clico na primeira opção dos produtos exibidos
         E eu clico no botão "ADD TO CART"
         Então o produto deve ser adicionado ao carrinho
-        E o ícone do carrinho deve mostrar a quantidade atualizada
-
+        E o ícone do carrinho deve atualizar a quantidade de produtos
 
     Cenário: Adicionar um produto ao carrinho e falhar
         Dado que eu já realizei a busca do produto "Tablet"
